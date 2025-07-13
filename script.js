@@ -1,1 +1,440 @@
-function _0x18f0(_0x5351ed,_0x3bce4c){const _0x28056=_0x2805();return _0x18f0=function(_0x18f004,_0x3e6b6c){_0x18f004=_0x18f004-0x1de;let _0x4115d7=_0x28056[_0x18f004];return _0x4115d7;},_0x18f0(_0x5351ed,_0x3bce4c);}const _0x3aa8a4=_0x18f0;(function(_0x31f061,_0x592b2f){const _0xa3801d=_0x18f0,_0x30ae82=_0x31f061();while(!![]){try{const _0x1dac1d=-parseInt(_0xa3801d(0x242))/0x1+-parseInt(_0xa3801d(0x235))/0x2*(-parseInt(_0xa3801d(0x243))/0x3)+-parseInt(_0xa3801d(0x20a))/0x4*(-parseInt(_0xa3801d(0x201))/0x5)+parseInt(_0xa3801d(0x274))/0x6+parseInt(_0xa3801d(0x215))/0x7*(-parseInt(_0xa3801d(0x25f))/0x8)+parseInt(_0xa3801d(0x270))/0x9+-parseInt(_0xa3801d(0x26e))/0xa;if(_0x1dac1d===_0x592b2f)break;else _0x30ae82['push'](_0x30ae82['shift']());}catch(_0x441a39){_0x30ae82['push'](_0x30ae82['shift']());}}}(_0x2805,0xd8c16),document[_0x3aa8a4(0x1e3)](_0x3aa8a4(0x224),function(){const _0x39cc28=_0x3aa8a4,_0x5e773e=document['getElementById'](_0x39cc28(0x248)),_0x47e66f=document[_0x39cc28(0x256)](_0x39cc28(0x273)),_0x59a2b6=document[_0x39cc28(0x256)](_0x39cc28(0x21b)),_0x4cc82f=document['body'];let _0x46054d=0x0;const _0x201ad8=0x1e,_0x29156f=0x4b0,_0x362e98=0x64/(_0x29156f/_0x201ad8);_0x4cc82f[_0x39cc28(0x1e4)][_0x39cc28(0x25c)](_0x39cc28(0x238));const _0x18d333=setInterval(()=>{const _0x57f253=_0x39cc28;_0x46054d<0x63?(_0x46054d+=_0x362e98,_0x47e66f[_0x57f253(0x206)]['width']=_0x46054d+'%'):(clearInterval(_0x18d333),_0x47e66f['style']['width']=_0x57f253(0x1f5),setTimeout(()=>{const _0x5e21d4=_0x57f253;_0x5e773e[_0x5e21d4(0x1e4)][_0x5e21d4(0x25c)](_0x5e21d4(0x22f)),_0x5e773e[_0x5e21d4(0x1e3)](_0x5e21d4(0x253),function(){const _0x1e162f=_0x5e21d4;_0x5e773e[_0x1e162f(0x206)][_0x1e162f(0x1e9)]=_0x1e162f(0x22b),_0x4cc82f['classList']['remove'](_0x1e162f(0x238)),_0x2e72da();},{'once':!![]});},0xc8));},_0x201ad8);let _0x57ba4a=null,_0x2b16b0='',_0x1b2bde=0x0,_0x4fc3e9=null;window[_0x39cc28(0x221)]=_0x57ba4a,window[_0x39cc28(0x1eb)]=_0x2b16b0,window[_0x39cc28(0x1fb)]=_0x1b2bde,window[_0x39cc28(0x258)]=_0x4fc3e9;const _0x14bd16=document[_0x39cc28(0x256)]('notificationModal'),_0x4948dd=document['querySelector']('.close-button'),_0x1c05f5=document['getElementById'](_0x39cc28(0x222));function _0x2e72da(){const _0x2ce78e=_0x39cc28;_0x14bd16[_0x2ce78e(0x1e4)]['add'](_0x2ce78e(0x272)),_0x4cc82f[_0x2ce78e(0x1e4)][_0x2ce78e(0x25c)](_0x2ce78e(0x238));}function _0x59d29b(){const _0x53508d=_0x39cc28;_0x14bd16[_0x53508d(0x1e4)]['remove']('show'),_0x4cc82f[_0x53508d(0x1e4)]['remove'](_0x53508d(0x238));}_0x4948dd&&_0x4948dd[_0x39cc28(0x1e3)](_0x39cc28(0x21c),_0x59d29b);_0x1c05f5&&_0x1c05f5[_0x39cc28(0x1e3)](_0x39cc28(0x21c),_0x59d29b);_0x14bd16&&window['addEventListener'](_0x39cc28(0x21c),function(_0x41b40e){const _0x1b671e=_0x39cc28;_0x41b40e[_0x1b671e(0x219)]==_0x14bd16&&_0x59d29b();});const _0x11dfa0=document[_0x39cc28(0x256)]('sidebar'),_0x5b0d20=document['getElementById'](_0x39cc28(0x254)),_0x5dfd19=document[_0x39cc28(0x256)](_0x39cc28(0x1e1)),_0x569d3e=document[_0x39cc28(0x256)](_0x39cc28(0x1e2));function _0x1af148(){const _0x225fed=_0x39cc28;_0x11dfa0[_0x225fed(0x206)][_0x225fed(0x220)]=_0x225fed(0x1df),_0x5b0d20[_0x225fed(0x1e4)][_0x225fed(0x25c)](_0x225fed(0x272)),_0x4cc82f[_0x225fed(0x1e4)][_0x225fed(0x25c)](_0x225fed(0x238));}function _0x26fef8(){const _0x302d9b=_0x39cc28;_0x11dfa0['style'][_0x302d9b(0x220)]='0',_0x5b0d20[_0x302d9b(0x1e4)]['remove'](_0x302d9b(0x272)),_0x4cc82f[_0x302d9b(0x1e4)][_0x302d9b(0x26f)]('no-scroll');}_0x5dfd19&&_0x5dfd19['addEventListener'](_0x39cc28(0x21c),_0x1af148);_0x569d3e&&_0x569d3e[_0x39cc28(0x1e3)](_0x39cc28(0x21c),_0x26fef8);_0x5b0d20&&_0x5b0d20[_0x39cc28(0x1e3)](_0x39cc28(0x21c),_0x26fef8);const _0x1e646c=document[_0x39cc28(0x1e6)](_0x39cc28(0x23d));_0x1e646c[_0x39cc28(0x1de)](_0x34a184=>{const _0x4608a1=_0x39cc28;_0x34a184[_0x4608a1(0x1e3)](_0x4608a1(0x21c),function(_0x200a3c){const _0x4e80b9=_0x4608a1;this[_0x4e80b9(0x20f)]&&this[_0x4e80b9(0x22e)]===window[_0x4e80b9(0x216)]['pathname']&&_0x26fef8();});});const _0x61779a=document[_0x39cc28(0x1e6)](_0x39cc28(0x205)),_0x1aafa5=document[_0x39cc28(0x207)],_0x29c3e8=document['getElementById'](_0x39cc28(0x1ff)),_0x4dc67b=document[_0x39cc28(0x256)]('themeOptions');function _0x3c22d2(_0x21f640){const _0xa646b4=_0x39cc28;_0x1aafa5['classList'][_0xa646b4(0x26f)]('theme-red',_0xa646b4(0x21f));_0x21f640!==_0xa646b4(0x200)&&_0x1aafa5[_0xa646b4(0x1e4)][_0xa646b4(0x25c)](_0xa646b4(0x208)+_0x21f640);_0x61779a[_0xa646b4(0x1de)](_0x2ed615=>_0x2ed615[_0xa646b4(0x1e4)][_0xa646b4(0x26f)]('active')),document[_0xa646b4(0x256)](_0xa646b4(0x223)+(_0x21f640[_0xa646b4(0x267)](0x0)[_0xa646b4(0x23a)]()+_0x21f640['slice'](0x1)))[_0xa646b4(0x1e4)]['add'](_0xa646b4(0x263)),localStorage[_0xa646b4(0x264)](_0xa646b4(0x1f1),_0x21f640);let _0x47334d;if(_0x21f640==='red')_0x47334d='#ef4444';else _0x21f640===_0xa646b4(0x232)?_0x47334d=_0xa646b4(0x271):_0x47334d=_0xa646b4(0x276);_0x29c3e8[_0xa646b4(0x206)][_0xa646b4(0x1fe)]=_0x47334d;}_0x29c3e8&&_0x29c3e8[_0x39cc28(0x1e3)](_0x39cc28(0x21c),function(){const _0x449a0e=_0x39cc28;_0x4dc67b[_0x449a0e(0x1e4)][_0x449a0e(0x24d)](_0x449a0e(0x272)),_0x4dc67b['classList'][_0x449a0e(0x211)](_0x449a0e(0x272))?setTimeout(()=>{const _0x4512fe=_0x449a0e;document[_0x4512fe(0x1e3)](_0x4512fe(0x21c),_0x206336,!![]);},0x64):document[_0x449a0e(0x265)](_0x449a0e(0x21c),_0x206336,!![]);});function _0x206336(_0x3351c0){const _0x11a9b7=_0x39cc28,_0x13bd08=document[_0x11a9b7(0x256)](_0x11a9b7(0x25b));!_0x13bd08['contains'](_0x3351c0[_0x11a9b7(0x219)])&&(_0x4dc67b[_0x11a9b7(0x1e4)][_0x11a9b7(0x26f)](_0x11a9b7(0x272)),document[_0x11a9b7(0x265)](_0x11a9b7(0x21c),_0x206336,!![]));}_0x61779a['forEach'](_0x385438=>{const _0x17d825=_0x39cc28;_0x385438[_0x17d825(0x1e3)]('click',function(){const _0xd38c90=_0x17d825;let _0x29de1c;if(_0x385438['id']===_0xd38c90(0x266))_0x29de1c=_0xd38c90(0x200);else{if(_0x385438['id']===_0xd38c90(0x1e0))_0x29de1c=_0xd38c90(0x1f7);else _0x385438['id']==='themeBlue'&&(_0x29de1c=_0xd38c90(0x232));}_0x3c22d2(_0x29de1c),_0x4dc67b['classList'][_0xd38c90(0x26f)](_0xd38c90(0x272)),document[_0xd38c90(0x265)]('click',_0x206336,!![]);});});const _0x2d64c0=localStorage['getItem'](_0x39cc28(0x1f1));_0x2d64c0?_0x3c22d2(_0x2d64c0):_0x3c22d2(_0x39cc28(0x200));const _0x38c354=document[_0x39cc28(0x256)](_0x39cc28(0x24f)),_0x16819b=document[_0x39cc28(0x256)](_0x39cc28(0x23f)),_0x322498=document[_0x39cc28(0x256)](_0x39cc28(0x1f9)),_0xa4ec18=document[_0x39cc28(0x256)](_0x39cc28(0x25a)),_0x5a4a0c=document[_0x39cc28(0x1e6)](_0x39cc28(0x259));function _0x12b5c9(){const _0x482cf3=_0x39cc28;if(!_0xa4ec18){console[_0x482cf3(0x240)]('Elemen\x20#productAccordion\x20tidak\x20ditemukan!');return;}_0xa4ec18[_0x482cf3(0x1fa)]='',window[_0x482cf3(0x25d)]&&Array[_0x482cf3(0x1fc)](window[_0x482cf3(0x25d)])?(window[_0x482cf3(0x25d)][_0x482cf3(0x1de)](_0x3ca12f=>{const _0x405816=_0x482cf3,_0x13cb6d=document[_0x405816(0x24a)](_0x405816(0x269));_0x13cb6d[_0x405816(0x1e4)]['add'](_0x405816(0x21d));const _0x59329b=document[_0x405816(0x24a)](_0x405816(0x269));_0x59329b[_0x405816(0x1e4)][_0x405816(0x25c)](_0x405816(0x1f6)),_0x59329b[_0x405816(0x1fa)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>'+_0x3ca12f[_0x405816(0x26a)]+_0x405816(0x1ee),_0x13cb6d[_0x405816(0x1f4)](_0x59329b);const _0x11fc49=document[_0x405816(0x24a)](_0x405816(0x269));_0x11fc49['classList'][_0x405816(0x25c)]('accordion-content');const _0x1613d2=document[_0x405816(0x24a)]('div');_0x1613d2[_0x405816(0x1e4)]['add'](_0x405816(0x209)),_0x3ca12f[_0x405816(0x245)][_0x405816(0x1de)](_0x1a6348=>{const _0x246379=_0x405816,_0x22fc2f=document[_0x246379(0x24a)](_0x246379(0x269));_0x22fc2f[_0x246379(0x1e4)]['add'](_0x246379(0x1f2)),_0x22fc2f[_0x246379(0x210)](_0x246379(0x1ef),_0x1a6348['value']),_0x22fc2f[_0x246379(0x210)](_0x246379(0x230),_0x1a6348[_0x246379(0x241)]),_0x22fc2f[_0x246379(0x1fa)]=_0x246379(0x21a)+_0x1a6348[_0x246379(0x20c)]+'\x20'+(_0x1a6348[_0x246379(0x251)]?_0x246379(0x233)+_0x1a6348[_0x246379(0x251)]+'</span>':'')+_0x246379(0x1e7)+_0x1a6348['specs']+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22product-price\x22>Rp\x20'+_0x1a6348[_0x246379(0x241)][_0x246379(0x204)](_0x246379(0x22c))+_0x246379(0x23e),_0x1613d2[_0x246379(0x1f4)](_0x22fc2f);}),_0x11fc49['appendChild'](_0x1613d2),_0x13cb6d[_0x405816(0x1f4)](_0x11fc49),_0xa4ec18['appendChild'](_0x13cb6d);}),_0x511c3b(),_0x2b0de2()):console['error'](_0x482cf3(0x26c));}function _0x511c3b(){const _0xc4793c=_0x39cc28,_0x6e7f87=document['querySelectorAll'](_0xc4793c(0x237));_0x6e7f87[_0xc4793c(0x1de)](_0xb77f0=>{const _0x4150da=_0xc4793c;_0xb77f0[_0x4150da(0x265)](_0x4150da(0x21c),_0x34ea43),_0xb77f0[_0x4150da(0x1e3)](_0x4150da(0x21c),_0x34ea43);});}function _0x34ea43(){const _0x5a881c=_0x39cc28,_0x6b0a4b=this[_0x5a881c(0x23c)],_0x278b83=this['querySelector']('i');document[_0x5a881c(0x1e6)](_0x5a881c(0x237))[_0x5a881c(0x1de)](_0x3bfb26=>{const _0x4f2c10=_0x5a881c;_0x3bfb26!==this&&_0x3bfb26[_0x4f2c10(0x1e4)][_0x4f2c10(0x211)](_0x4f2c10(0x263))&&(_0x3bfb26[_0x4f2c10(0x1e4)]['remove'](_0x4f2c10(0x263)),_0x3bfb26[_0x4f2c10(0x23c)][_0x4f2c10(0x206)][_0x4f2c10(0x262)]=null,_0x3bfb26[_0x4f2c10(0x1ea)]('i')[_0x4f2c10(0x1e4)][_0x4f2c10(0x26f)](_0x4f2c10(0x22d)),_0x3bfb26['querySelector']('i')['classList'][_0x4f2c10(0x25c)](_0x4f2c10(0x1ec)));}),this['classList'][_0x5a881c(0x24d)](_0x5a881c(0x263)),this[_0x5a881c(0x1e4)][_0x5a881c(0x211)](_0x5a881c(0x263))?(_0x278b83[_0x5a881c(0x1e4)][_0x5a881c(0x26f)]('fa-chevron-down'),_0x278b83[_0x5a881c(0x1e4)][_0x5a881c(0x25c)](_0x5a881c(0x22d)),_0x6b0a4b['style']['maxHeight']=_0x6b0a4b['scrollHeight']+'px'):(_0x278b83[_0x5a881c(0x1e4)]['remove'](_0x5a881c(0x22d)),_0x278b83[_0x5a881c(0x1e4)]['add'](_0x5a881c(0x1ec)),_0x6b0a4b[_0x5a881c(0x206)][_0x5a881c(0x262)]=null);}function _0x2b0de2(){const _0x43c657=_0x39cc28,_0x146a34=document[_0x43c657(0x1e6)](_0x43c657(0x24e));_0x146a34[_0x43c657(0x1de)](_0x124443=>{const _0x51ea0e=_0x43c657;_0x124443['removeEventListener']('click',_0x4976f5),_0x124443[_0x51ea0e(0x1e3)]('click',_0x4976f5);});}function _0x4976f5(){const _0x1efa3e=_0x39cc28;document['querySelectorAll'](_0x1efa3e(0x24e))['forEach'](_0x1d9e43=>_0x1d9e43[_0x1efa3e(0x1e4)]['remove'](_0x1efa3e(0x217))),this[_0x1efa3e(0x1e4)][_0x1efa3e(0x25c)](_0x1efa3e(0x217)),_0x57ba4a=this[_0x1efa3e(0x24c)](_0x1efa3e(0x1ef)),_0x2b16b0=this['querySelector']('.product-name')[_0x1efa3e(0x203)]['replace'](/Populer/g,'')[_0x1efa3e(0x1f3)](),_0x1b2bde=parseInt(this[_0x1efa3e(0x24c)]('data-price')),window[_0x1efa3e(0x221)]=_0x57ba4a,window[_0x1efa3e(0x1eb)]=_0x2b16b0,window['hargaProdukTerpilih']=_0x1b2bde,_0x1de9ef();}_0x5a4a0c[_0x39cc28(0x1de)](_0x9ca351=>{const _0x13bc08=_0x39cc28;_0x9ca351['addEventListener'](_0x13bc08(0x21c),function(){const _0x42da6f=_0x13bc08;_0x5a4a0c[_0x42da6f(0x1de)](_0x2cfd4e=>_0x2cfd4e[_0x42da6f(0x1e4)][_0x42da6f(0x26f)](_0x42da6f(0x217))),this[_0x42da6f(0x1e4)][_0x42da6f(0x25c)](_0x42da6f(0x217)),_0x4fc3e9=this[_0x42da6f(0x24c)](_0x42da6f(0x21e)),window['metodePembayaranTerpilih']=_0x4fc3e9,_0x1de9ef();});});function _0x275d67(){const _0x555a61=_0x39cc28,_0x29833e=_0x16819b[_0x555a61(0x202)];_0x29833e[_0x555a61(0x244)]>0x0&&_0x29833e[_0x555a61(0x244)]<0x8?(_0x16819b['setCustomValidity'](_0x555a61(0x225)),_0x322498[_0x555a61(0x1e4)][_0x555a61(0x25c)](_0x555a61(0x247))):(_0x16819b[_0x555a61(0x218)](''),_0x322498[_0x555a61(0x1e4)][_0x555a61(0x26f)](_0x555a61(0x247))),_0x16819b[_0x555a61(0x257)]();}_0x16819b['addEventListener'](_0x39cc28(0x239),_0x275d67);function _0x233c3f(_0x34b860){const _0x4c2b8f=_0x39cc28,_0x1d506a=[{'maxPrice':0xc350,'tax':0x3e8},{'maxPrice':0x186a0,'tax':0x7d0},{'maxPrice':0x30d40,'tax':0xbb8},{'maxPrice':0x7a120,'tax':0xfa0},{'maxPrice':Infinity,'tax':0x1388}];for(const _0x36f313 of _0x1d506a){if(_0x34b860<=_0x36f313[_0x4c2b8f(0x246)])return _0x36f313[_0x4c2b8f(0x24b)];}return 0x0;}function _0x1de9ef(){const _0x5f58de=_0x39cc28,_0x3d59ba=document[_0x5f58de(0x256)](_0x5f58de(0x20e)),_0x18b4e3=document[_0x5f58de(0x256)]('summary-price'),_0x3791f5=document[_0x5f58de(0x256)](_0x5f58de(0x228)),_0x11baeb=document[_0x5f58de(0x256)](_0x5f58de(0x1f8)),_0x460a4e=document[_0x5f58de(0x256)](_0x5f58de(0x231));let _0x44dca9=_0x1b2bde,_0x8ad7dc=0x0,_0x1cc2b5=0x0;_0x57ba4a?(_0x3d59ba['textContent']=_0x2b16b0,_0x18b4e3[_0x5f58de(0x203)]=_0x5f58de(0x23b)+_0x44dca9[_0x5f58de(0x204)]('id-ID'),_0x8ad7dc=_0x233c3f(_0x44dca9),_0x1cc2b5=_0x44dca9+_0x8ad7dc,_0x3791f5['textContent']=_0x5f58de(0x23b)+_0x8ad7dc[_0x5f58de(0x204)](_0x5f58de(0x22c)),_0x11baeb['textContent']=_0x5f58de(0x23b)+_0x1cc2b5[_0x5f58de(0x204)]('id-ID')):(_0x3d59ba['textContent']='-',_0x18b4e3[_0x5f58de(0x203)]=_0x5f58de(0x20d),_0x3791f5['textContent']=_0x5f58de(0x20d),_0x11baeb[_0x5f58de(0x203)]=_0x5f58de(0x20d));if(_0x4fc3e9){const _0x409beb=document[_0x5f58de(0x1ea)](_0x5f58de(0x249)+_0x4fc3e9+'\x22]');_0x460a4e[_0x5f58de(0x203)]=_0x409beb[_0x5f58de(0x1ea)](_0x5f58de(0x1ed))['textContent'];}else _0x460a4e[_0x5f58de(0x203)]='-';}_0x38c354['addEventListener'](_0x39cc28(0x275),function(_0x16d793){const _0x3a5543=_0x39cc28;_0x16d793[_0x3a5543(0x20b)](),_0x275d67();if(!_0x38c354[_0x3a5543(0x1fd)]()){alert('Mohon\x20lengkapi\x20semua\x20bidang\x20yang\x20wajib\x20diisi\x20dan\x20perbaiki\x20kesalahan.');return;}if(!_0x57ba4a){alert(_0x3a5543(0x250));return;}if(!_0x4fc3e9){alert(_0x3a5543(0x268));return;}const _0x4478b9=document[_0x3a5543(0x256)](_0x3a5543(0x26b))[_0x3a5543(0x202)],_0x2d7954=document[_0x3a5543(0x256)](_0x3a5543(0x252))['value'],_0x59a7c0=_0x233c3f(_0x1b2bde),_0x3009e5=_0x1b2bde+_0x59a7c0,_0x32ffea=document['querySelector']('.payment-method[data-method=\x22'+_0x4fc3e9+_0x3a5543(0x1f0))['textContent'],_0x25e7fc=_0x3a5543(0x214);let _0x1b41e4=_0x3a5543(0x212);_0x1b41e4+=_0x3a5543(0x1e8),_0x1b41e4+='Nama\x20Pengguna:\x20'+_0x4478b9+_0x3a5543(0x25e),_0x1b41e4+='Surel:\x20'+_0x2d7954+'\x0a\x0a',_0x1b41e4+='*Detail\x20Pesanan:*\x0a',_0x1b41e4+=_0x3a5543(0x234)+_0x2b16b0+'\x0a',_0x1b41e4+=_0x3a5543(0x261)+_0x1b2bde[_0x3a5543(0x204)](_0x3a5543(0x22c))+_0x3a5543(0x26d),_0x1b41e4+=_0x3a5543(0x229)+_0x59a7c0[_0x3a5543(0x204)](_0x3a5543(0x22c))+'\x0a',_0x1b41e4+=_0x3a5543(0x1e5)+_0x32ffea+'\x0a',_0x1b41e4+='*Total\x20Pembayaran:\x20Rp\x20'+_0x3009e5[_0x3a5543(0x204)](_0x3a5543(0x22c))+_0x3a5543(0x226),_0x1b41e4+=_0x3a5543(0x236);const _0xaf2bad=encodeURIComponent(_0x1b41e4),_0x5a45c5=_0x3a5543(0x213)+_0x25e7fc+'?text='+_0xaf2bad;window[_0x3a5543(0x260)](_0x5a45c5,_0x3a5543(0x255)),alert(_0x3a5543(0x227)),_0x38c354[_0x3a5543(0x22a)](),document[_0x3a5543(0x1e6)]('.product-item.selected')['forEach'](_0x5da095=>_0x5da095[_0x3a5543(0x1e4)][_0x3a5543(0x26f)]('selected')),document[_0x3a5543(0x1e6)]('.payment-method.selected')[_0x3a5543(0x1de)](_0x56e5f7=>_0x56e5f7['classList'][_0x3a5543(0x26f)](_0x3a5543(0x217))),_0x57ba4a=null,_0x2b16b0='',_0x1b2bde=0x0,_0x4fc3e9=null,window[_0x3a5543(0x221)]=_0x57ba4a,window[_0x3a5543(0x1eb)]=_0x2b16b0,window[_0x3a5543(0x1fb)]=_0x1b2bde,window[_0x3a5543(0x258)]=_0x4fc3e9,_0x1de9ef();}),_0x12b5c9(),_0x1de9ef();}));function _0x2805(){const _0x5c5d39=['product-item','trim','appendChild','100%','accordion-header','red','summary-total','passwordHint','innerHTML','hargaProdukTerpilih','isArray','checkValidity','backgroundColor','toggleThemeButton','green','10ouPJrp','value','textContent','toLocaleString','.floating-theme-switcher\x20.theme-button','style','body','theme-','accordion-content-inner','3090956cFSJeA','preventDefault','name','Rp\x200','summary-package','hash','setAttribute','contains','Halo\x20Admin\x20FauziHost!\x0a\x0aSaya\x20ingin\x20memesan\x20hosting\x20dengan\x20detail\x20sebagai\x20berikut:\x0a\x0a','https://wa.me/','6282132710183','376579XwxWNX','location','selected','setCustomValidity','target','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22product-name\x22>','loadingMessage','click','accordion-item','data-method','theme-blue','width','nilaiProdukTerpilih','understoodButton','theme','DOMContentLoaded','Kata\x20sandi\x20minimal\x20harus\x208\x20karakter','*\x0a\x0a','Pesanan\x20Anda\x20telah\x20diteruskan\x20ke\x20WhatsApp!\x20Silakan\x20lanjutkan\x20obrolan\x20untuk\x20konfirmasi\x20pembayaran.','summary-tax','Pajak:\x20Rp\x20','reset','none','id-ID','fa-chevron-up','pathname','fade-out','data-price','summary-payment','blue','<span\x20class=\x22product-badge\x22>','Paket\x20Hosting:\x20','185558KXbvZN','Saya\x20telah\x20menyetujui\x20Syarat\x20dan\x20Ketentuan\x20yang\x20berlaku.\x0a\x0aTerima\x20kasih.','.accordion-header','no-scroll','input','toUpperCase','Rp\x20','nextElementSibling','#sidebar\x20a','/bulan</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','password','error','price','1393762IOnqDv','36jvywNs','length','items','maxPrice','show-error','loading-page','.payment-method[data-method=\x22','createElement','tax','getAttribute','toggle','.product-item','hostingForm','Silakan\x20pilih\x20paket\x20hosting\x20terlebih\x20dahulu.','badge','email','transitionend','sidebar-overlay','_blank','getElementById','reportValidity','metodePembayaranTerpilih','.payment-method','productAccordion','floatingThemeSwitcher','add','productsData','.fauzihost.biz.id\x0a','96fyWnij','open','Harga\x20Paket:\x20Rp\x20','maxHeight','active','setItem','removeEventListener','themeGreen','charAt','Silakan\x20pilih\x20metode\x20pembayaran.','div','category','username','Data\x20produk\x20tidak\x20ditemukan\x20atau\x20tidak\x20valid\x20di\x20window.productsData.\x20Pastikan\x20produk.js\x20dimuat\x20dengan\x20benar.','/bulan\x0a','11211870GimNyS','remove','4086495DSAMcs','#3b82f6','show','progressBarFill','5612772gUGZJb','submit','#48bb78','forEach','250px','themeRed','openSidebarBtn','closeSidebarBtn','addEventListener','classList','Metode\x20Pembayaran:\x20','querySelectorAll','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22product-specs\x22>','*Informasi\x20Akun:*\x0a','display','querySelector','namaProdukTerpilih','fa-chevron-down','span','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-chevron-down\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','data-value','\x22]\x20span','selectedTheme'];_0x2805=function(){return _0x5c5d39;};return _0x2805();}
+document.addEventListener('DOMContentLoaded', function () {
+    const halamanPemuatan = document.getElementById('loading-page');
+    const progressBarFill = document.getElementById('progressBarFill');
+    const loadingMessage = document.getElementById('loadingMessage');
+    const tubuhDokumen = document.body;
+
+    let progress = 0;
+    const intervalTime = 30;
+    const totalTime = 1200;
+    const increment = (100 / (totalTime / intervalTime));
+
+    tubuhDokumen.classList.add('no-scroll');
+
+    const loadingInterval = setInterval(() => {
+        if (progress < 99) {
+            progress += increment;
+            progressBarFill.style.width = progress + '%';
+        } else {
+            clearInterval(loadingInterval);
+            progressBarFill.style.width = '100%';
+
+            setTimeout(() => {
+                halamanPemuatan.classList.add('fade-out');
+                halamanPemuatan.addEventListener('transitionend', function () {
+                    halamanPemuatan.style.display = 'none';
+                    tubuhDokumen.classList.remove('no-scroll');
+
+                    tampilkanModalNotifikasi();
+                }, { once: true });
+            }, 200);
+        }
+    }, intervalTime);
+
+
+    let nilaiProdukTerpilih = null;
+    let namaProdukTerpilih = '';
+    let hargaProdukTerpilih = 0;
+    let metodePembayaranTerpilih = null;
+
+    window.nilaiProdukTerpilih = nilaiProdukTerpilih;
+    window.namaProdukTerpilih = namaProdukTerpilih;
+    window.hargaProdukTerpilih = hargaProdukTerpilih;
+    window.metodePembayaranTerpilih = metodePembayaranTerpilih;
+
+    const notificationModal = document.getElementById('notificationModal');
+    const closeButton = document.querySelector('.close-button');
+    const understoodButton = document.getElementById('understoodButton');
+
+    function tampilkanModalNotifikasi() {
+        notificationModal.classList.add('show');
+        tubuhDokumen.classList.add('no-scroll');
+    }
+
+    function sembunyikanModalNotifikasi() {
+        notificationModal.classList.remove('show');
+        tubuhDokumen.classList.remove('no-scroll');
+    }
+
+    if (closeButton) {
+        closeButton.addEventListener('click', sembunyikanModalNotifikasi);
+    }
+
+    if (understoodButton) {
+        understoodButton.addEventListener('click', sembunyikanModalNotifikasi);
+    }
+
+    if (notificationModal) {
+        window.addEventListener('click', function (event) {
+            if (event.target == notificationModal) {
+                sembunyikanModalNotifikasi();
+            }
+        });
+    }
+
+    const sidebar = document.getElementById("sidebar");
+    const sidebarOverlay = document.getElementById("sidebar-overlay");
+    const openSidebarBtn = document.getElementById("openSidebarBtn");
+    const closeSidebarBtn = document.getElementById("closeSidebarBtn");
+
+    function openSidebar() {
+        sidebar.style.width = "250px";
+        sidebarOverlay.classList.add("show");
+        tubuhDokumen.classList.add('no-scroll');
+    }
+
+    function closeSidebar() {
+        sidebar.style.width = "0";
+        sidebarOverlay.classList.remove("show");
+        tubuhDokumen.classList.remove('no-scroll');
+    }
+
+    if (openSidebarBtn) {
+        openSidebarBtn.addEventListener('click', openSidebar);
+    }
+    if (closeSidebarBtn) {
+        closeSidebarBtn.addEventListener('click', closeSidebar);
+    }
+    if (sidebarOverlay) {
+        sidebarOverlay.addEventListener('click', closeSidebar);
+    }
+
+    const sidebarLinks = document.querySelectorAll('#sidebar a');
+    sidebarLinks.forEach(link => {
+        link.addEventListener('click', function (event) {
+            if (this.hash && this.pathname === window.location.pathname) {
+                closeSidebar();
+            }
+        });
+    });
+
+    const themeButtons = document.querySelectorAll('.floating-theme-switcher .theme-button');
+    const bodyElement = document.body;
+    const toggleThemeButton = document.getElementById('toggleThemeButton');
+    const themeOptions = document.getElementById('themeOptions');
+
+    function applyTheme(themeName) {
+        bodyElement.classList.remove('theme-red', 'theme-blue');
+        if (themeName !== 'green') {
+            bodyElement.classList.add(`theme-${themeName}`);
+        }
+
+        themeButtons.forEach(button => button.classList.remove('active'));
+        document.getElementById(`theme${themeName.charAt(0).toUpperCase() + themeName.slice(1)}`).classList.add('active');
+
+        localStorage.setItem('selectedTheme', themeName);
+
+        let accentColorForButton;
+        if (themeName === 'red') {
+            accentColorForButton = '#ef4444';
+        } else if (themeName === 'blue') {
+            accentColorForButton = '#3b82f6';
+        } else {
+            accentColorForButton = '#48bb78';
+        }
+        toggleThemeButton.style.backgroundColor = accentColorForButton;
+    }
+
+    if (toggleThemeButton) {
+        toggleThemeButton.addEventListener('click', function () {
+            themeOptions.classList.toggle('show');
+            if (themeOptions.classList.contains('show')) {
+                setTimeout(() => {
+                    document.addEventListener('click', closeThemeOptionsOutside, true);
+                }, 100);
+            } else {
+                document.removeEventListener('click', closeThemeOptionsOutside, true);
+            }
+        });
+    }
+
+    function closeThemeOptionsOutside(event) {
+        const floatingSwitcher = document.getElementById('floatingThemeSwitcher');
+        if (!floatingSwitcher.contains(event.target)) {
+            themeOptions.classList.remove('show');
+            document.removeEventListener('click', closeThemeOptionsOutside, true);
+        }
+    }
+
+    themeButtons.forEach(button => {
+        button.addEventListener('click', function () {
+            let themeName;
+            if (button.id === 'themeGreen') {
+                themeName = 'green';
+            } else if (button.id === 'themeRed') {
+                themeName = 'red';
+            } else if (button.id === 'themeBlue') {
+                themeName = 'blue';
+            }
+            applyTheme(themeName);
+            themeOptions.classList.remove('show');
+            document.removeEventListener('click', closeThemeOptionsOutside, true);
+        });
+    });
+
+    const savedTheme = localStorage.getItem('selectedTheme');
+    if (savedTheme) {
+        applyTheme(savedTheme);
+    } else {
+        applyTheme('green');
+    }
+
+    const formulirHosting = document.getElementById('hostingForm');
+    const masukanKataSandi = document.getElementById('password');
+    const petunjukKataSandi = document.getElementById('passwordHint');
+    const wadahAkordeonProduk = document.getElementById('productAccordion');
+    const metodePembayaran = document.querySelectorAll('.payment-method');
+
+    function tampilkanProduk() {
+        if (!wadahAkordeonProduk) {
+            console.error("Elemen #productAccordion tidak ditemukan!");
+            return;
+        }
+        wadahAkordeonProduk.innerHTML = '';
+
+        if (window.productsData && Array.isArray(window.productsData)) {
+            window.productsData.forEach(kategori => {
+                const itemAkordeon = document.createElement('div');
+                itemAkordeon.classList.add('accordion-item');
+
+                const kepalaAkordeon = document.createElement('div');
+                kepalaAkordeon.classList.add('accordion-header');
+                kepalaAkordeon.innerHTML = `
+                    <span>${kategori.category}</span>
+                    <i class="fas fa-chevron-down"></i>
+                `;
+                itemAkordeon.appendChild(kepalaAkordeon);
+
+                const isiAkordeon = document.createElement('div');
+                isiAkordeon.classList.add('accordion-content');
+                const isiDalamAkordeon = document.createElement('div');
+                isiDalamAkordeon.classList.add('accordion-content-inner');
+
+                kategori.items.forEach(item => {
+                    const divItemProduk = document.createElement('div');
+                    divItemProduk.classList.add('product-item');
+                    divItemProduk.setAttribute('data-value', item.value);
+                    divItemProduk.setAttribute('data-price', item.price);
+                    divItemProduk.innerHTML = `
+                        <div>
+                            <div class="product-name">${item.name} ${item.badge ? `<span class="product-badge">${item.badge}</span>` : ''}</div>
+                            <div class="product-specs">${item.specs}</div>
+                        </div>
+                        <div class="product-price">Rp ${item.price.toLocaleString('id-ID')}/bulan</div>
+                    `;
+                    isiDalamAkordeon.appendChild(divItemProduk);
+                });
+
+                isiAkordeon.appendChild(isiDalamAkordeon);
+                itemAkordeon.appendChild(isiAkordeon);
+                wadahAkordeonProduk.appendChild(itemAkordeon);
+            });
+
+            inisialisasiPendengarAkordeon();
+            aturKlikProduk();
+        } else {
+            console.error("Data produk tidak ditemukan atau tidak valid di window.productsData. Pastikan produk.js dimuat dengan benar.");
+        }
+    }
+
+    function inisialisasiPendengarAkordeon() {
+        const kepalaAkordeon = document.querySelectorAll('.accordion-header');
+        kepalaAkordeon.forEach(header => {
+            header.removeEventListener('click', tanganiKlikAkordeon);
+            header.addEventListener('click', tanganiKlikAkordeon);
+        });
+    }
+
+    function tanganiKlikAkordeon() {
+        const isiAkordeon = this.nextElementSibling;
+        const ikon = this.querySelector('i');
+
+        document.querySelectorAll('.accordion-header').forEach(kepalaLain => {
+            if (kepalaLain !== this && kepalaLain.classList.contains('active')) {
+                kepalaLain.classList.remove('active');
+                kepalaLain.nextElementSibling.style.maxHeight = null;
+                kepalaLain.querySelector('i').classList.remove('fa-chevron-up');
+                kepalaLain.querySelector('i').classList.add('fa-chevron-down');
+            }
+        });
+
+        this.classList.toggle('active');
+
+        if (this.classList.contains('active')) {
+            ikon.classList.remove('fa-chevron-down');
+            ikon.classList.add('fa-chevron-up');
+            isiAkordeon.style.maxHeight = isiAkordeon.scrollHeight + 'px';
+        } else {
+            ikon.classList.remove('fa-chevron-up');
+            ikon.classList.add('fa-chevron-down');
+            isiAkordeon.style.maxHeight = null;
+        }
+    }
+
+    function aturKlikProduk() {
+        const itemProduk = document.querySelectorAll('.product-item');
+        itemProduk.forEach(item => {
+            item.removeEventListener('click', tanganiKlikProduk);
+            item.addEventListener('click', tanganiKlikProduk);
+        });
+    }
+
+    function tanganiKlikProduk() {
+        document.querySelectorAll('.product-item').forEach(i => i.classList.remove('selected'));
+        this.classList.add('selected');
+        nilaiProdukTerpilih = this.getAttribute('data-value');
+        namaProdukTerpilih = this.querySelector('.product-name').textContent.replace(/Populer/g, '').trim();
+        hargaProdukTerpilih = parseInt(this.getAttribute('data-price'));
+
+        window.nilaiProdukTerpilih = nilaiProdukTerpilih;
+        window.namaProdukTerpilih = namaProdukTerpilih;
+        window.hargaProdukTerpilih = hargaProdukTerpilih;
+
+        perbaruiRingkasanPesanan();
+    }
+
+    metodePembayaran.forEach(metode => {
+        metode.addEventListener('click', function () {
+            metodePembayaran.forEach(m => m.classList.remove('selected'));
+            this.classList.add('selected');
+            metodePembayaranTerpilih = this.getAttribute('data-method');
+            window.metodePembayaranTerpilih = metodePembayaranTerpilih;
+            perbaruiRingkasanPesanan();
+        });
+    });
+
+    function validasiKataSandi() {
+        const kataSandi = masukanKataSandi.value;
+
+        if (kataSandi.length > 0 && kataSandi.length < 8) {
+            masukanKataSandi.setCustomValidity("Kata sandi minimal harus 8 karakter");
+            petunjukKataSandi.classList.add('show-error');
+        } else {
+            masukanKataSandi.setCustomValidity('');
+            petunjukKataSandi.classList.remove('show-error');
+        }
+        masukanKataSandi.reportValidity();
+    }
+
+    masukanKataSandi.addEventListener('input', validasiKataSandi);
+
+    function calculateTax(price) {
+        const taxTiers = [
+            { maxPrice: 50000, tax: 1000 },
+            { maxPrice: 100000, tax: 2000 },
+            { maxPrice: 200000, tax: 3000 },
+            { maxPrice: 500000, tax: 4000 },
+            { maxPrice: Infinity, tax: 5000 }
+        ];
+
+        for (const tier of taxTiers) {
+            if (price <= tier.maxPrice) {
+                return tier.tax;
+            }
+        }
+        return 0;
+    }
+
+    function perbaruiRingkasanPesanan() {
+        const ringkasanPaket = document.getElementById('summary-package');
+        const ringkasanHarga = document.getElementById('summary-price');
+        const ringkasanPajak = document.getElementById('summary-tax');
+        const ringkasanTotal = document.getElementById('summary-total');
+        const ringkasanPembayaran = document.getElementById('summary-payment');
+
+        let hargaSaatIni = hargaProdukTerpilih;
+        let jumlahPajak = 0;
+        let total = 0;
+
+        if (nilaiProdukTerpilih) {
+            ringkasanPaket.textContent = namaProdukTerpilih;
+            ringkasanHarga.textContent = 'Rp ' + hargaSaatIni.toLocaleString('id-ID');
+
+            jumlahPajak = calculateTax(hargaSaatIni);
+            total = hargaSaatIni + jumlahPajak;
+
+            ringkasanPajak.textContent = 'Rp ' + jumlahPajak.toLocaleString('id-ID');
+            ringkasanTotal.textContent = 'Rp ' + total.toLocaleString('id-ID');
+        } else {
+            ringkasanPaket.textContent = '-';
+            ringkasanHarga.textContent = 'Rp 0';
+            ringkasanPajak.textContent = 'Rp 0';
+            ringkasanTotal.textContent = 'Rp 0';
+        }
+
+        if (metodePembayaranTerpilih) {
+            const elemenMetode = document.querySelector(`.payment-method[data-method="${metodePembayaranTerpilih}"]`);
+            ringkasanPembayaran.textContent = elemenMetode.querySelector('span').textContent;
+        } else {
+            ringkasanPembayaran.textContent = '-';
+        }
+    }
+
+    formulirHosting.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        validasiKataSandi();
+
+        if (!formulirHosting.checkValidity()) {
+            alert('Mohon lengkapi semua bidang yang wajib diisi dan perbaiki kesalahan.');
+            return;
+        }
+
+        if (!nilaiProdukTerpilih) {
+            alert('Silakan pilih paket hosting terlebih dahulu.');
+            return;
+        }
+
+        if (!metodePembayaranTerpilih) {
+            alert('Silakan pilih metode pembayaran.');
+            return;
+        }
+
+        const namaPengguna = document.getElementById('username').value;
+        const surel = document.getElementById('email').value;
+
+        const pajakAkhir = calculateTax(hargaProdukTerpilih);
+
+        const totalAkhir = hargaProdukTerpilih + pajakAkhir;
+
+        const namaMetodePembayaran = document.querySelector(`.payment-method[data-method="${metodePembayaranTerpilih}"] span`).textContent;
+
+        const nomorTelepon = "6282132710183";
+        let pesanWhatsApp = `Halo Admin FauziHost!\n\nSaya ingin memesan hosting dengan detail sebagai berikut:\n\n`;
+        pesanWhatsApp += `*Informasi Akun:*\n`;
+        pesanWhatsApp += `Nama Pengguna: ${namaPengguna}.fauzihost.biz.id\n`;
+        pesanWhatsApp += `Surel: ${surel}\n\n`;
+        pesanWhatsApp += `*Detail Pesanan:*\n`;
+        pesanWhatsApp += `Paket Hosting: ${namaProdukTerpilih}\n`;
+        pesanWhatsApp += `Harga Paket: Rp ${hargaProdukTerpilih.toLocaleString('id-ID')}/bulan\n`;
+        pesanWhatsApp += `Pajak: Rp ${pajakAkhir.toLocaleString('id-ID')}\n`;
+        pesanWhatsApp += `Metode Pembayaran: ${namaMetodePembayaran}\n`;
+        pesanWhatsApp += `*Total Pembayaran: Rp ${totalAkhir.toLocaleString('id-ID')}*\n\n`;
+        pesanWhatsApp += `Saya telah menyetujui Syarat dan Ketentuan yang berlaku.\n\nTerima kasih.`;
+
+        const pesanTerkode = encodeURIComponent(pesanWhatsApp);
+        const urlWhatsApp = `https://wa.me/${nomorTelepon}?text=${pesanTerkode}`;
+
+        window.open(urlWhatsApp, '_blank');
+
+        alert('Pesanan Anda telah diteruskan ke WhatsApp! Silakan lanjutkan obrolan untuk konfirmasi pembayaran.');
+
+        formulirHosting.reset();
+        document.querySelectorAll('.product-item.selected').forEach(el => el.classList.remove('selected'));
+        document.querySelectorAll('.payment-method.selected').forEach(el => el.classList.remove('selected'));
+
+        nilaiProdukTerpilih = null;
+        namaProdukTerpilih = '';
+        hargaProdukTerpilih = 0;
+        metodePembayaranTerpilih = null;
+        window.nilaiProdukTerpilih = nilaiProdukTerpilih;
+        window.namaProdukTerpilih = namaProdukTerpilih;
+        window.hargaProdukTerpilih = hargaProdukTerpilih;
+        window.metodePembayaranTerpilih = metodePembayaranTerpilih;
+
+        perbaruiRingkasanPesanan();
+    });
+
+    tampilkanProduk();
+    perbaruiRingkasanPesanan();
+});
