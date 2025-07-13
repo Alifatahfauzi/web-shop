@@ -1,5 +1,5 @@
 
-## 📘 Penjelasan Setiap File/Folder
+## Folder web-host BY Fauzialifatah 
 
 | Path             | Fungsi                                                                 |
 |------------------|------------------------------------------------------------------------|
