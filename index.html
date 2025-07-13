@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar FauziHost</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div id="notificationModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Tata Cara Pendaftaran Hosting</h2>
+            <ol>
+                <li>Isi "Informasi Akun" Anda dengan nama pengguna, surel, dan kata sandi yang valid.</li>
+                <li>Pilih "Paket Hosting" yang Anda inginkan dari daftar yang tersedia.</li>
+                <li>Pilih "Metode Pembayaran" yang sesuai (QRIS, Gopay, atau DANA).</li>
+                <li>Periksa "Ringkasan Pesanan" Anda untuk memastikan semua detail sudah benar, termasuk harga paket,
+                    pajak, dan total pembayaran.</li>
+                <li>Klik tombol "Daftar Sekarang" untuk mengirim pesanan Anda melalui WhatsApp.</li>
+                <li>Lanjutkan percakapan di WhatsApp dengan Admin FauziHost untuk konfirmasi pembayaran dan aktivasi
+                    layanan Anda.</li>
+            </ol>
+            <button id="understoodButton" class="submit-btn" style="width: auto; margin-top: 20px;">Saya
+                Mengerti</button>
+        </div>
+    </div>
+
+    <div id="loading-page">
+        <div class="loader-content">
+            <div class="logo-container-loading">
+                <i class="fas fa-server logo-icon"></i>
+                <span class="logo-text">FauziHost</span>
+            </div>
+            <div class="progress-bar-container">
+                <div class="progress-bar-fill" id="progressBarFill"></div>
+            </div>
+            <p id="loadingMessage">Memuat sumber daya...</p>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo-container">
+            <i class="fas fa-server logo-icon"></i>
+            <span class="logo-text">FauziHost</span>
+        </div>
+        <div class="login-icon-container">
+            <a href="login.html" class="login-icon" title="Masuk Admin">
+                <i class="fas fa-user-circle"></i>
+            </a>
+        </div>
+        <div class="nav-links">
+        </div>
+    </nav>
+
+    <div class="main-container">
+        <div class="registration-container">
+            <div class="form-header">
+                <h2>Pendaftaran Hosting</h2>
+                <p>Daftar akun hosting Anda dalam beberapa langkah mudah</p>
+            </div>
+
+            <form id="hostingForm">
+                <div class="form-section">
+                    <h3><i class="fas fa-user-circle"></i> Informasi Akun</h3>
+                    <div class="form-group">
+                        <label for="username" class="form-label">Nama Pengguna</label>
+                        <div class="input-group">
+                            <input type="text" id="username" class="form-input" placeholder="Masukkan nama pengguna"
+                                required>
+                            <span class="input-group-addon">fauzihost.biz.id</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="form-label">Alamat Surel</label>
+                        <input type="email" id="email" class="form-input" placeholder="fauzialifatah@gmail.com"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password" class="form-label">Kata Sandi</label>
+                        <input type="password" id="password" class="form-input" placeholder="Masukkan kata sandi"
+                            required>
+                        <p class="password-hint" id="passwordHint">Kata sandi minimal 8 karakter</p>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h3><i class="fas fa-server"></i> Pilih Paket Hosting</h3>
+                    <div class="product-selection">
+                        <div class="product-accordion" id="productAccordion">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h3><i class="fas fa-credit-card"></i> Metode Pembayaran</h3>
+                    <div class="payment-methods">
+                        <div class="payment-method qris" data-method="qris">
+                            <i class="fas fa-qrcode"></i> <span>QRIS</span>
+                        </div>
+                        <div class="payment-method gopay" data-method="gopay">
+                            <i class="fas fa-wallet"></i> <span>Gopay</span>
+                        </div>
+                        <div class="payment-method dana" data-method="dana">
+                            <i class="fas fa-dollar-sign"></i>
+                            <span>DANA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="summary-box">
+                    <div class="summary-title">Ringkasan Pesanan</div>
+                    <div class="summary-item">
+                        <span class="summary-label">Paket Hosting:</span>
+                        <span class="summary-value" id="summary-package">-</span>
+                    </div>
+                    <div class="summary-item">
+                        <span class="summary-label">Harga:</span>
+                        <span class="summary-value" id="summary-price">Rp 0</span>
+                    </div>
+                    <div class="summary-item">
+                        <span class="summary-label">Pajak:</span>
+                        <span class="summary-value" id="summary-tax">Rp 0</span>
+                    </div>
+                    <div class="summary-item">
+                        <span class="summary-label">Metode Pembayaran:</span>
+                        <span class="summary-value" id="summary-payment">-</span>
+                    </div>
+                    <div class="summary-item">
+                        <span class="summary-label">Total:</span>
+                        <span class="summary-value summary-total" id="summary-total">Rp 0</span>
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-paper-plane"></i> Daftar Sekarang
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <div class="logo-container">
+                    <i class="fas fa-server logo-icon"></i>
+                    <span class="logo-text">FauziHost</span>
+                </div>
+                <p>Penyedia panel Pterodactyl terbaik dengan harga terjangkau dan kualitas premium.</p>
+                <div class="social-icons">
+                    <a href="#" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            <div class="footer-middle">
+                <div class="footer-column">
+                    <h3>Layanan</h3>
+                    <ul>
+                        <li><a href="#">Panel Pterodactyl</a></li>
+                        <li><a href="#">Web Hosting</a></li>
+                        <li><a href="#">VPS Hosting</a></li>
+                        <li><a href="#">Domain</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Perusahaan</h3>
+                    <ul>
+                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="#">Kontak</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Karier</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Bantuan</h3>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Dokumentasi</a></li>
+                        <li><a href="#">Komunitas</a></li>
+                        <li><a href="#">Status Server</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 FauziHost. Semua Hak Cipta Dilindungi.</p>
+            <div class="bottom-links">
+                <a href="#">Syarat & Ketentuan</a>
+                <a href="#">Kebijakan Privasi</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="floating-theme-switcher" id="floatingThemeSwitcher">
+        <button class="toggle-button" id="toggleThemeButton" title="Ganti Tema">
+            <i class="fas fa-palette"></i>
+        </button>
+        <div class="theme-options" id="themeOptions">
+            <button id="themeGreen" class="theme-button green-theme" title="Tema Hijau"></button>
+            <button id="themeRed" class="theme-button red-theme" title="Tema Merah"></button>
+            <button id="themeBlue" class="theme-button blue-theme" title="Tema Biru"></button>
+        </div>
+    </div>
+    <script src="produk.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
