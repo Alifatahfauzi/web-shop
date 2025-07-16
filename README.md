@@ -5,7 +5,7 @@
 |------------------|------------------------------------------------------------------------|
 | `css/`           | Menyimpan file CSS untuk mengatur gaya tampilan website                |
 | `produk.js`      | Data tentang produk/paket hosting dalam bentuk JavaScript              |
-| `script.js`      | Mengelola logika interaksi pengguna di halaman website                 |
+| `setting.js`      | Mengelola logika interaksi pengguna di halaman website                 |
 | `index.html`     | Beranda utama website                                                  |
 | `README.md`      | Penjelasan atau dokumentasi proyek                                     |
 
