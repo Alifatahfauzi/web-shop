@@ -25,7 +25,7 @@ body.theme-blue {
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: var(--background-color);
     color: var(--text-color);
     margin: 0;
@@ -308,8 +308,9 @@ body.no-scroll {
 .main-container {
     flex-grow: 1;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     padding: 30px 20px;
     overflow-y: auto;
 }
@@ -927,29 +928,165 @@ body.theme-blue .payment-method.selected {
     background-color: #3b82f6;
 }
 
-@media (max-width: 768px) {
-    .floating-theme-switcher {
-        bottom: 70px;
-        right: 20px;
-    }
-
-    .floating-theme-switcher .toggle-button {
-        width: 45px;
-        height: 45px;
-        font-size: 20px;
-    }
-
-    .floating-theme-switcher .theme-button {
-        width: 30px;
-        height: 30px;
-    }
+.accordion-faq-container {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
 }
 
-@media (max-width: 480px) {
-    .floating-theme-switcher {
-        bottom: 50px;
-        right: 15px;
-    }
+.accordion-faq-item {
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.accordion-faq-item:last-child {
+    border-bottom: none;
+}
+
+.accordion-faq-header {
+    padding: 18px 20px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.accordion-faq-header:hover {
+    background-color: var(--secondary-color);
+}
+
+.accordion-faq-header.active {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+}
+
+.accordion-faq-header i {
+    transition: transform 0.3s ease;
+}
+
+.accordion-faq-header.active i {
+    transform: rotate(180deg);
+}
+
+.accordion-faq-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: var(--secondary-color);
+}
+
+.accordion-faq-content p {
+    padding: 15px 20px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 0;
+    text-align: left;
+}
+
+.accordion-faq-content ul {
+    padding: 10px 20px 15px 40px;
+    margin: 0;
+    color: var(--text-secondary);
+    list-style-type: disc;
+}
+
+.accordion-faq-content ul li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.accordion-faq-content p+p {
+    margin-top: 10px;
+}
+
+.accordion-faq-content ul li:last-child {
+    margin-bottom: 0;
+}
+
+.separate-feature-section {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    max-width: 1200px;
+    width: calc(100% - 40px);
+    margin-top: 30px;
+    padding: 30px;
+    animation: fadeIn 0.5s ease-out;
+}
+
+.section-title {
+    color: var(--text-color);
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-weight: 700;
+}
+
+.section-title i {
+    color: var(--accent-color);
+    font-size: 32px;
+}
+
+.feature-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.feature-card {
+    background-color: var(--background-color);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.feature-card .icon-wrapper {
+    background-color: var(--accent-color);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px auto;
+    font-size: 28px;
+    color: var(--primary-color);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.feature-card h4 {
+    color: var(--text-color);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    color: var(--text-secondary);
+    font-size: 15px;
+    line-height: 1.6;
+    flex-grow: 1;
 }
 
 @media (max-width: 768px) {
@@ -1032,7 +1169,6 @@ body.theme-blue .payment-method.selected {
 
     .footer-left p {
         font-size: 14px;
-        margin-bottom: 0;
     }
 
     .footer-bottom {
@@ -1057,6 +1193,57 @@ body.theme-blue .payment-method.selected {
     .bottom-links a {
         margin: 0;
         font-size: 13px;
+    }
+
+    .accordion-faq-header {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .accordion-faq-content p,
+    .accordion-faq-content ul {
+        padding: 12px 15px;
+        font-size: 14px;
+    }
+
+    .separate-feature-section {
+        padding: 20px;
+        margin-top: 25px;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .section-title {
+        font-size: 20px;
+        gap: 10px;
+        margin-bottom: 25px;
+    }
+
+    .section-title i {
+        font-size: 28px;
+    }
+
+    .feature-cards-container {
+        grid-template-columns: 1fr;
+    }
+
+    .feature-card {
+        padding: 15px;
+    }
+
+    .feature-card .icon-wrapper {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .feature-card h4 {
+        font-size: 18px;
+    }
+
+    .feature-card p {
+        font-size: 14px;
     }
 }
 
@@ -1097,6 +1284,15 @@ body.theme-blue .payment-method.selected {
 
     .footer-column {
         width: 100%;
+    }
+
+    .accordion-faq-header {
+        font-size: 15px;
+    }
+
+    .accordion-faq-content p,
+    .accordion-faq-content ul {
+        font-size: 13px;
     }
 }
 
