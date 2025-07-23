@@ -4,11 +4,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const passwordInput = document.getElementById('password');
     const passwordError = document.getElementById('passwordError');
 
-    // Penanganan Form Login
     loginForm.addEventListener('submit', (event) => {
-        event.preventDefault(); // Mencegah pengiriman form default
+        event.preventDefault();
 
-        // Reset pesan error
         passwordError.classList.remove('show-error');
         passwordError.textContent = '';
 
@@ -21,27 +19,18 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        // --- PENTING: BAGIAN INI HARUS DIIMPLEMENTASIKAN DI SISI SERVER ---
-        // Ini hanya simulasi pengiriman data.
-        // Dalam aplikasi nyata, Anda akan mengirimkan kredensial ini ke API server.
         console.log('Mengirim data login:', { username, password });
 
-        // Contoh simulasi respons server
-        // Dalam produksi, gunakan fetch() untuk mengirim ke server Anda
         setTimeout(() => {
-            if (username === 'user' && password === 'password') { // Contoh kredensial dummy
+            if (username === 'user' && password === 'password') {
                 alert('Login berhasil! Selamat datang, ' + username + '!');
-                // Redirect ke halaman dashboard atau beranda setelah login berhasil
-                // window.location.href = '/dashboard.html';
             } else {
                 passwordError.textContent = 'Nama pengguna atau kata sandi salah.';
                 passwordError.classList.add('show-error');
             }
-        }, 1000); // Simulasi penundaan jaringan
+        }, 1000);
     });
 
-
-    // Theme Switcher Logic
     const themeToggleButton = document.getElementById('themeToggleButton');
     const themeOptions = document.getElementById('themeOptions');
     const themeButtons = document.querySelectorAll('.theme-button');
@@ -54,37 +43,30 @@ document.addEventListener('DOMContentLoaded', () => {
         button.addEventListener('click', () => {
             const selectedTheme = button.dataset.theme;
 
-            // Hapus kelas tema sebelumnya dari body
             document.body.classList.remove('theme-red', 'theme-blue');
 
-            // Tambahkan kelas tema yang dipilih
             if (selectedTheme === 'red') {
                 document.body.classList.add('theme-red');
             } else if (selectedTheme === 'blue') {
                 document.body.classList.add('theme-blue');
             }
-            // Jika 'green', tidak perlu menambahkan kelas tambahan karena itu default
 
-            // Atur tombol aktif
             themeButtons.forEach(btn => btn.classList.remove('active'));
             button.classList.add('active');
 
-            // Simpan tema yang dipilih ke localStorage (opsional, untuk mengingat preferensi)
             localStorage.setItem('selectedTheme', selectedTheme);
         });
     });
 
-    // Muat tema dari localStorage saat halaman dimuat
     const savedTheme = localStorage.getItem('selectedTheme');
     if (savedTheme) {
-        document.body.classList.remove('theme-red', 'theme-blue'); // Hapus semua tema default
+        document.body.classList.remove('theme-red', 'theme-blue');
         if (savedTheme === 'red') {
             document.body.classList.add('theme-red');
         } else if (savedTheme === 'blue') {
             document.body.classList.add('theme-blue');
         }
 
-        // Set tombol tema yang aktif
         themeButtons.forEach(btn => {
             if (btn.dataset.theme === savedTheme) {
                 btn.classList.add('active');
@@ -93,5 +75,4 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
-
 });
