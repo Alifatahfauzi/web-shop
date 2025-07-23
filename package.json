@@ -2,7 +2,7 @@
   "name": "fauzihost-website",
   "version": "1.0.0",
   "description": "Website pemesanan hosting untuk FauziHost",
-  "main": "src/script.js",
+  "main": "script.js",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir dist",
